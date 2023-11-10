@@ -5,11 +5,11 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInventario", "SistemaInventario\SistemaInventario.csproj", "{E5919A2D-9855-4C34-B049-73A8911DC368}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisstemaInventario.AccesoDatos", "SisstemaInventario.AccesoDatos\SisstemaInventario.AccesoDatos.csproj", "{E4FEF63B-8E22-4A24-9045-E2075112223B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SisstemaInventario.AccesoDatos", "SisstemaInventario.AccesoDatos\SisstemaInventario.AccesoDatos.csproj", "{E4FEF63B-8E22-4A24-9045-E2075112223B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventario.Modelos", "SistemaInventario.Modelos\SistemaInventario.Modelos.csproj", "{948515A5-C92E-44FC-BA76-1D7AE61881DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInventario.Modelos", "SistemaInventario.Modelos\SistemaInventario.Modelos.csproj", "{948515A5-C92E-44FC-BA76-1D7AE61881DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventario.Utilidades", "SistemaInventario.Utilidades\SistemaInventario.Utilidades.csproj", "{9F30B446-B93B-404B-834E-4CFB26184415}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInventario.Utilidades", "SistemaInventario.Utilidades\SistemaInventario.Utilidades.csproj", "{9F30B446-B93B-404B-834E-4CFB26184415}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

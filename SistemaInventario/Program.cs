@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using SisstemaInventario.AccesoDatos.Repositorio;
+using SisstemaInventario.AccesoDatos.Repositorio.IRepositorio;
 using SistemaInventario.AccesoDatos.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +17,9 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 
 // Agragando el servicio runtime
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+// Agragando como servicio nuestra interfaz de trabajo
+builder.Services.AddScoped<IUnidadTrabajo, UnidadTrabajo>();
 
 var app = builder.Build();
 
